@@ -1,0 +1,1 @@
+# kampung_juaq_asa
