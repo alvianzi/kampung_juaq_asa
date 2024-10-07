@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a.navbar-brand {
+    font-weight: bold ;
+    color: #F6F6F6 !important;
+}
+
+#navbar {
+    background-color: #212121;
+}
+
+#navbarSupportedContent a.nav-link.active {
+    color: #F6F6F6;
+}
+
+#navbarSupportedContent a.nav-link.active.utama:hover {
+    position: relative;
+    right:2px;
+}
+
+#navbarSupportedContent #highlight a.nav-link.active  {
+   background-color : #6D9886;
+}
+#navbarSupportedContent #highlight a.nav-link.active:hover{
+    background-color : #F6F6F6;
+    color: #6D9886;
+    transition: 1s;
+ }
+
+ .hero_tentang h2{
+    margin-top: 150px;
+ }
+
+ .profilekkn {
+    margin-top: 30px;
+    margin-bottom: 125px;
+ }
+
+ .main-profil span{
+    background-color: #212121;
+    color: #F6F6F6;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
+ button.navbar-toggler{
+    background-color: white;
+}
+
+.footer {
+    background-color: #212121;
+    color: #F6F6F6;
+ }
+ /* Enhance Table Appearance */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e2e6ea;
+}
+
+/* Style the buttons */
+.view-btn, .download-btn {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.view-btn:hover, .download-btn:hover {
+    background-color: #0a58ca;
+}
+
+.view-btn i, .download-btn i {
+    margin-right: 5px;
+}
+
+/* Responsive Image */
+td img {
+    border-radius: 5px;
+}
+/* Image Styles */
+td img {
+    width: 150px; /* Bisa disesuaikan sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px; /* Membulatkan sudut */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow untuk kesan terangkat */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transisi halus */
+}
+
+/* Hover effect */
+td img:hover {
+    transform: scale(1.05); /* Memperbesar sedikit saat hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Shadow lebih besar saat hover */
+}
+
+/* Styling untuk container table agar lebih pas */
+tbody td {
+    vertical-align: middle;
+}
